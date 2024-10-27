@@ -5,5 +5,9 @@
 
 ## Phases
 ### Phase 1 
+Objectives:
+#### Phase 1A - Computer Vision Model
+- get the dataset from kaggle
+- determine model architecture
 
-### Phase 2y
+### Phase 2
