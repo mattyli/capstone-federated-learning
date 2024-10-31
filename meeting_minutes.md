@@ -8,4 +8,5 @@
         - put this in the context of the initial infection
         - EDA (exploratory data analysis), make charts detailing counts of severities of lung counts to justify how we distribute the data.
 - will use UNet or another similar CNN architecture
-- 
+
+# 4 Nov 2024
