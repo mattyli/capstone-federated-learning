@@ -23,5 +23,11 @@
             - pixel wise softmax over the final feature map combined with the cross entropy loss function (?)
         - weights initialized from gaussian (standard normal) distribution with deviation (sigma) sqrt(2/N) where N is the nmber of incoming nodes of one neuron
         - UNet originally looked at cell samples on slides, the only augmentations they looked at were shift, rotation, gray value. 
+
+- what is the difference between transmitting the weights directly and the gradients?
+    - how will this affect performance and convergance?
+    - should we try both approaches?
+
+- distributing the data non-IID.
 # Conclusions
 - UNet seems to be a very common architecture for this (segmentation) task
