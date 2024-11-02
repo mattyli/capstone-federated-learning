@@ -23,6 +23,19 @@
             - pixel wise softmax over the final feature map combined with the cross entropy loss function (?)
         - weights initialized from gaussian (standard normal) distribution with deviation (sigma) sqrt(2/N) where N is the nmber of incoming nodes of one neuron
         - UNet originally looked at cell samples on slides, the only augmentations they looked at were shift, rotation, gray value. 
+    - Foundational Models
+        - what is a Foundational Model?
+            - model that can generalize to many tasks with simple fine-tuning (often seen in LLMs)
+        - https://www.nature.com/articles/s41467-024-44824-z#:~:text=However%2C%20a%20significant%20limitation%20of,types%20of%20imaging%20data6.
+        - Segment Anything Model (SAM)
+            - these models perform well with well defined (high contrast boundaries), v.v for the opposite
+        - MedSAM?
+            - trained on over 1.5 million image mask pairs
+            - CT, MRI are the primary image modes, XR is a small percentage (may not generalize well to CXR)
+            - struggles with targets that hav eweek boundaries
+        - MedSAM was compared against U-Net architectures and DeepLab models
+    - can we use transfer learning?
+        - what models would be good for this?
 
 - what is the difference between transmitting the weights directly and the gradients?
     - how will this affect performance and convergance?
