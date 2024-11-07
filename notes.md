@@ -41,6 +41,18 @@
     - how will this affect performance and convergance?
     - should we try both approaches?
 
+- using deep learning to extract gender from chest radiographs
+    - study from the National Institute of Health (NIH)
+    - https://lhncbc.nlm.nih.gov/LHC-publications/PDF/SPIE_2018_gender_fullpaper_final.pdf
+    - there is an open-source biomedical image search engine (Open-i)
+    - authors created a dataset, but not all of it is publically available
+        - dataset is not provided, neither is the code
+    - they found that VggNet-16 extractor with SVM classifier was the best for this task
+    - this would be a significant task, quite challenging on top of what is already being done.
+
+- this dataset has over 100,000 images and 
+    
+
 - distributing the data non-IID.
 # Conclusions
 - UNet seems to be a very common architecture for this (segmentation) task

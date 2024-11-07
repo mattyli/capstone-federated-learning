@@ -10,3 +10,6 @@
 - will use UNet or another similar CNN architecture
 
 # 4 Nov 2024
+- David has made initial model with UNet architecture
+- accuracy is not that great, biases infections with two lungs
+- Meeting 1:30 - 4:00
