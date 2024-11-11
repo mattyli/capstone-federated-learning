@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
     for images, masks in train_loader:
         print("Image shape:", images.shape)  # Should print torch.Size([batch_size, 1, 256, 256])
-        print("Mask shape:", masks.shape)  # Should print torch.Size([batch_size, 1, 256, 256])
+        print("Mask shape:", masks.shape)  # will print torch.Size([batch_size, 1, 256, 256])
         break
 
     # Training loop
