@@ -13,3 +13,13 @@
 - David has made initial model with UNet architecture
 - accuracy is not that great, biases infections with two lungs
 - Meeting 1:30 - 4:00
+
+# 11 Nov 2024
+- No updates 
+- agenda made for meeting with Kim
+- ## Action Items
+    - Jake & Brandon will have FL research done and present some of it to us
+    - David & Matt will try to have UNet and XNet
+        - David trained UNet, satisfactory results
+
+# 18 Nov 2024
