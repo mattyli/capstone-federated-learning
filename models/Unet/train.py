@@ -142,7 +142,7 @@ def dice_score(preds, targets, threshold=0.5):
 
 def test_model(model, test_loader, device):
     """
-    Test the U-Net model and visualize predictions with DICE scores.
+    Test the U-Net model and visualize predictions with DICE scores
     """
     model.eval()
     dice_scores = []
