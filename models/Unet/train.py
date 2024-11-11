@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
     for images, masks in train_loader:
         print("Image shape:", images.shape)  # Should print torch.Size([batch_size, 1, 256, 256])
-        print("Mask shape:", masks.shape)  # Should print torch.Size([batch_size, 1, 256, 256])
+        print("Mask shape:", masks.shape)  # will print torch.Size([batch_size, 1, 256, 256])
         break
 
     # Training loop
@@ -142,7 +142,7 @@ def dice_score(preds, targets, threshold=0.5):
 
 def test_model(model, test_loader, device):
     """
-    Test the U-Net model and visualize predictions with DICE scores.
+    Test the U-Net model and visualize predictions with DICE scores
     """
     model.eval()
     dice_scores = []
